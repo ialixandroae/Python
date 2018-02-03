@@ -1,7 +1,3 @@
-# Script realizat pentru redimensionarea unor imagini la un anumit numar
-# de pixeli (prestabilit) si copierea acestora in alta locatie
-# Ionut Alixandroae
-# Esri Romania
 
 """
 Import module
@@ -12,8 +8,8 @@ from PIL import Image
 """
 Declarare variabile globale
 """
-inputUrl = r"D:\Munca\---Proiecte---\---Mogosoaia---\MogosoaiaRaw"
-outputUrl = r"D:\Munca\---Dev---\---PythonAPI---\Img\watson_imgs"
+inputUrl = input
+outputUrl = output
 nrOfPixels = 1000
 
 class resizePhotos(object):
